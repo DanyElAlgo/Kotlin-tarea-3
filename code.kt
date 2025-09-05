@@ -10,6 +10,6 @@ fun main(){
     val nombres: String = "Daniel Roland"
     val generos: List<String> = listOf("Masculino", "Femenino", "Personalizado", "Prefiero no decirlo")
     
-    saludar(nombres)
-    println(generar(generos[0]))
+    saludar(nombres) // Hola, Daniel Roland
+    println(generar(generos[0])) // Mi género es Masculino
 }
